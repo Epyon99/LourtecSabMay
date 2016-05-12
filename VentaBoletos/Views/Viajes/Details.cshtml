@@ -1,0 +1,98 @@
+﻿@model VentaBoletos.Models.Viaje
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Viaje</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Trayecto.TrayectoId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Trayecto.TrayectoId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VendedorId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VendedorId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CategoriaId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CategoriaId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Puesto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Puesto)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PuertaSalida)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PuertaSalida)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HoraSalida)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HoraSalida)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HoraEstimadaLlegada)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HoraEstimadaLlegada)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Unidad)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Unidad)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Precio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Precio)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NumeroViaje)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NumeroViaje)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ViajeId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

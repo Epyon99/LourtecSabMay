@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VentaBoletos", "VentaBoletos\VentaBoletos.csproj", "{8E411031-A9BE-4F81-95CF-C3F3199AE1E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VentaBoletos.Tests", "VentaBoletos.Tests\VentaBoletos.Tests.csproj", "{9E06228E-7A1F-4204-BBEF-39B5AE7F7B4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E411031-A9BE-4F81-95CF-C3F3199AE1E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E411031-A9BE-4F81-95CF-C3F3199AE1E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E411031-A9BE-4F81-95CF-C3F3199AE1E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E411031-A9BE-4F81-95CF-C3F3199AE1E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E06228E-7A1F-4204-BBEF-39B5AE7F7B4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E06228E-7A1F-4204-BBEF-39B5AE7F7B4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E06228E-7A1F-4204-BBEF-39B5AE7F7B4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E06228E-7A1F-4204-BBEF-39B5AE7F7B4C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
