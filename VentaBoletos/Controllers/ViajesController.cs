@@ -14,6 +14,15 @@ namespace VentaBoletos.Controllers
     {
         private VentaBoletosContext db = new VentaBoletosContext();
 
+        //[Route("Viaje/{tipoBusqueda}/{valor1}/{valor2}")]
+        public ActionResult Buscar(int tipoBusqueda, string valor1, string valor2)
+        {
+            ViewBag.TipoBusqueda = tipoBusqueda;
+            ViewBag.valor1 = valor1;
+            ViewBag.valor2 = valor2;
+            return View();
+        }
+
         // GET: Viajes
         public ActionResult Index()
         {
