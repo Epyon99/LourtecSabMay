@@ -172,6 +172,7 @@
     <Compile Include="Models\Usuario.cs" />
     <Compile Include="Models\VentaBoletosContext.cs" />
     <Compile Include="Models\Viaje.cs" />
+    <Compile Include="Models\ViewModel\ViewDestino.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -216,6 +217,8 @@
     <Content Include="Views\Viajes\Details.cshtml" />
     <Content Include="Views\Viajes\Edit.cshtml" />
     <Content Include="Views\Viajes\Index.cshtml" />
+    <Content Include="Views\Home\ListaDestino.cshtml" />
+    <Content Include="Views\Home\ParcialDestino.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

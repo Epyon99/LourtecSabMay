@@ -26,5 +26,16 @@ namespace VentaBoletos.Controllers
 
             return View();
         }
+
+        public ActionResult ListaDestino ()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public PartialViewResult ParcialDestino()
+        {
+            return PartialView();
+        }
     }
 }

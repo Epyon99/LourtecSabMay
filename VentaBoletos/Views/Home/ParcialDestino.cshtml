@@ -1,0 +1,33 @@
+﻿@*@model IEnumerable<VentaBoletos.Models.ViewModel.ViewDestino>*@
+@model VentaBoletos.Models.ViewModel.ViewDestino
+
+@{
+    ViewBag.Title = "ParcialDestino";
+}
+
+<h2>ParcialDestino</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.DestinoId)
+        </th>
+        <th></th>
+    </tr>
+@foreach (var item in Model.Trayectos) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.DestinoId)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>
+    </tr>
+}
+
+</table>
